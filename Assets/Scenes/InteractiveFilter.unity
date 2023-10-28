@@ -347,6 +347,12 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1 &180899068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6206005521247379536, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1027977860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +474,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1027977860}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &881554436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6206005521583193441, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1027977860}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &983203023 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6206005522308777282, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1027977860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1006484742
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +497,8 @@ GameObject:
   - component: {fileID: 1006484745}
   - component: {fileID: 1006484744}
   - component: {fileID: 1006484743}
+  - component: {fileID: 1006484746}
+  - component: {fileID: 1006484747}
   m_Layer: 0
   m_Name: Visual Scripts
   m_TagString: Untagged
@@ -516,9 +536,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"glasses1Button","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"glasses2Button","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"glasses3Button","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material1Button","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material2Button","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material3Button","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material1","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material2","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material3","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"currentGlassesTag","value":{"$content":"","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentMaterial","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 673260275}
+    - {fileID: 983203023}
+    - {fileID: 180899068}
+    - {fileID: 881554436}
+    - {fileID: 1212095417}
+    - {fileID: 1922762737}
+    - {fileID: 2100000, guid: ea77db1ba8d94dc4ebfe1ec7e5e693b3, type: 2}
+    - {fileID: 2100000, guid: 218ca35f87752ce4fba80436b14edc72, type: 2}
+    - {fileID: 2100000, guid: 452127cd0bc3d7545945feda5a99ac69, type: 2}
+    - {fileID: 5561349426305759274, guid: fb8a0115d8814bd49b4609e9566545e8, type: 3}
 --- !u!4 &1006484745
 Transform:
   m_ObjectHideFlags: 0
@@ -534,6 +573,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1006484746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006484742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 11fcc37275704e94283123f600f0f463, type: 2}
+--- !u!114 &1006484747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006484742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b84086e77378783489a76e0aeb911d27, type: 2}
 --- !u!1001 &1027977860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -958,6 +1029,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1212095417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6206005522389524157, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1027977860}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1922762737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6206005521853950637, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1027977860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &744691005955509622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -973,7 +1056,7 @@ PrefabInstance:
     - target: {fileID: 2081823786868645883, guid: 962c63a29d25d6741b2e5e2d669af7bf,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7818965136731906283, guid: 962c63a29d25d6741b2e5e2d669af7bf,
         type: 3}
